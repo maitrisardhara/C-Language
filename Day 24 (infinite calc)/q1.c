@@ -3,7 +3,21 @@
 void sum(int a, int b){
 	
 	printf("Sum : %d\n\n",a+b);
+}
 	
+void sub(int a, int b){
+	
+	printf("Sub : %d\n\n",a-b);
+}
+	
+void mul(int a, int b){
+	
+	printf("Mul : %d\n\n",a*b);
+}
+	
+void div(int a, int b){
+	
+	printf("Div : %d\n\n",a/b);
 }
 
 int main(){
@@ -30,15 +44,15 @@ int main(){
 			break;
 			
 	    case'-':
-			sum(a,b);
+			sub(a,b);
 			break;
 			
 		case'*':
-			sum(a,b);
+			mul(a,b);
 			break;
 			
 		case'/':
-			sum(a,b);
+			div(a,b);
 			break;
 		
 		
