@@ -3,7 +3,7 @@ int main(){
 	 FILE *p;
 	 char name[20];
 	 
-	 p = fopen("Demo.txt","a");
+	 p = fopen("Demo.txt","w");
 	 
 	 if (p==NULL){
 	 
